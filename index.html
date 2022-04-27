@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="itf=8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Meu Portifólio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/base.css" rel="stylesheet">
+        <link href="./assets/css/cabecalho.css" rel="stylesheet">
+        <link href="./assets/css/chamada.css" rel="stylesheet">
+        <link href="./assets/css/sobreMim.css" rel="stylesheet">
+        <link href="./assets/css/escolhasEvida.css" rel="stylesheet">
+        <link href="./assets/css/formacaoAcademica.css" rel="stylesheet">
+        <link href="./assets/css/rodape.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="cabecalho">
+            <img class="cabecalho__logo" src="./assets/img/assinatura.png" alt="Minha assinatura">
+            <nav class="cabecalho__navegacao">
+                <ul class="cabecalho__navegacao--links">
+                    <li class="cabecalho__link"><a href="#chamada__botoes">Sobre mim</a></li>
+                    <li class="cabecalho__link"><a href="#escolhasEvida">Escolhas & Vida</a></li>
+                    <li class="cabecalho__link"><a href="#formacaoAcademica">Formação acadêmica</a></li>
+                    <li class="cabecalho__link"><a class="cabecalho__link--destaque" href="#rodape">Entre em contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="chamada">
+                <section class="chamada__itens">
+                    <h1 class="chamada__titulo">Olá, eu sou o Matheus</h1>
+                    <h2 class="chamada__subtitulo fill">Estudo Engenharia da Computação, sou DEV e me capacito diariamente</h2>
+                    <p class="chamada__texto">Trabalho atualmente no Hospital Santa Catarina</p>
+                    <adress>
+                        <ul class="rodape__social">
+                            <li><a href="https://github.com/MatheusPiske" class="rodape__midia" target="_blank" rel="external"><img class="rodape__midia--github" src="./assets/img/icons8-github.svg" alt="Ícone do GitHub"></a></li>
+                            <li><a href="https://www.linkedin.com/in/matheus-henrique-piske-de-araujo-835733223/" class="rodape__midia" target="_blank" rel="external"><img class="rodape__midia--linkedin" src="./assets/img/icons8-linkedin.svg" alt="Ícone do LinkedIn"></a></li>
+                            <li><a href="https://www.instagram.com/matheus.piskee/" class="rodape__midia" target="_blank" rel="external"><img class="rodape__midia--instagram" src="./assets/img/icons8-instagram.svg" alt="Ícone do Instagram"></a></li>
+                        </ul>
+                    </adress>
+                    <section id="chamada__botoes">
+                        <a class="chamada__botao botao__semPreenchimento gradiente" href="./assets/documents/meuCurriculo.pdf" download="meuCurriculo.pdf" type="application/pdf" target="_blank" rel="external">Baixar currículo</a>
+                        <a class="chamada__botao botao" href="tel:47988042584">Vamos conversar!</a>
+                    </section>
+                </section>
+                <img class="chamada__imagem" src="./assets/img/guitarraZoom.jpeg" alt="Foto minha">
+            </section>
+
+            <section id="sobreMim">
+                <h1 class="sobreMim__titulo">Sobre Mim</h1>
+                <ul class="sobreMim__atribuicoes">
+                    <li class="sobreMim__icones">
+                        <img class="sobreMim__icone--trabalho" src="./assets/img/icons8-pasta.svg" alt="Ícone de Trabalho">
+                        <p class="sobreMim__texto">Aos 16 anos iniciei minha carreira profissional como menor aprendiz no Hospital Santa Catarina e desde de então tenho aprendido a ter valores e me relacionar melhor</p>
+                    </li>
+                    <li class="sobreMim__icones">
+                        <img class="sobreMim__icone--hobbs" src="./assets/img/icons8-puzzle.svg" alt="Ícone de Hobbs">
+                        <p class="sobreMim__texto">Em minha caminhada, fiz muito o uso da música para me autocapacitar e conseguir manter a cabeça no lugar. Procuro me manter ativo fisicamente e já participei de diferentes esportes, porém, minha maior paixão é o basquete</p>
+                    </li>
+                    <li class="sobreMim__icones">
+                        <img class="sobreMim__icone--estudos" src="./assets/img/icons8-ideia.svg" alt="Ícone de Estudos">
+                        <p class="sobreMim__texto">Atualmente venho investindo bastante tempo e estudos na área de desenvolvimento de softwares e conheço linguagens como CSS, Python, JavaScript, etc. Me interesso bastante pela área de computação</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="escolhasEvida">
+                <h1 class="escolhasEvida__titulo">Escolhas & Vida</h1>
+                <section class="escolhasEvida__cartoes">
+                    <ul>
+                        <li class="escolhasEvida__cartao flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">De onde sou</h1>
+                                <p class="escolhasEvida__cartoes--texto">Nasci na cidade de Brasília e lá fiquei morando durante 15 anos da minha vida. Nos mudamos várias vezes e tive a oportunidade 
+                                    de acompanhar diversos dos nossos processos familiares. Nos mudamos para a cidade de Blumenau - Santa Catarina e aqui estamos até hoje, aproveitando as diversidades 
+                                    e oportunidades do local</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="https://youtu.be/y_Qktjl2_Tg" target="_blank" rel="external">Conheça mais</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/brasilia.jpeg" alt="Imagem de Brasília"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Vida acadêmica</h1>
+                                <p class="escolhasEvida__cartoes--texto">Durante toda a construção da minha vida acadêmica até o ensino médio, 
+                                    estudei em ao todo 2 escolas. A primeira foi uma curta passagem onde pude ter uma bagagem para então ingressar no Centro Educacional Sigma. 
+                                    Ali, fiquei a maior parte do tempo, fiz amizades, desenvolvi meu caráter e aprendi diversos outros tipos de conteúdos</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="https://sigmadf.com.br/" target="_blank" rel="external">Link da escola</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/sigma.jpg" alt="Imagem da Escola Sigma"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Religião</h1>
+                                <p class="escolhasEvida__cartoes--texto">Sou evangélico e acredito que o único meio pelo qual podemos ser salvos é através do Senhor Jesus Cristo. Nossa vida deve ser guiada 
+                                    pelas mãos de Deus e todos os nossos atos baseados em sua bondade e misericórdia, sempre compreendendo o nosso lugar e missão.</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="https://www.bibliaonline.com.br/acf" target="_blank" rel="external">Bíblia online</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/biblia.jpg" alt="Imagem da Bíblia"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Esportes</h1>
+                                <p class="escolhasEvida__cartoes--texto">Já pratiquei diferentes esportes e participei de alguns campeonatos, onde pude conseguir medalhas pelo desempenho. Minha principal 
+                                    paixão é o basquete e com ele pude aprimorar diversos valores e habilidades como o trabalho em equipe e atuar sob pressão. Acredito que através dos esportes, 
+                                    Deus é capaz de nos aprimorar e trazer grandes benefícios para nossas vidas</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="http://lancelivreesportes.com.br/" target="_blank" rel="external">Site da Escola de Basquete</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem imagem__esportes " src="./assets/img/esportes.jpg" alt="Imagem de itens de esportes"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Música</h1>
+                                <p class="escolhasEvida__cartoes--texto">Sou muito ativo no ramo da música e gosto de desfrutar de boas composições, regravá-las e compor algumas canções. 
+                                    Já utilizei o meu violão para entender a música em sua teoria e evoluí para outros instrumentos como a guitarra, ukulele e gaita.</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="https://youtu.be/_iGOWk-r614">Música favorita</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/musica.jpg" alt="Imagem de partitura"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao--dinamico flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Mercado de trabalho </h1>
+                                <p class="escolhasEvida__cartoes--texto">Logo após chegar em Santa Catarina, comecei a investir em meu ingresso no mercado de trabalho e logo consegui um emprego como menor 
+                                    aprendiz no Hospital Santa Catarina. Ali aprendi mais sobre a carreira profissional e skills necessárias para a minha vida como um todo, conhecendo diversas pessoas 
+                                    enriquecedoras e excelentes pra construção do meu caráter. </p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="https://www.hsc.com.br/" target="_blank" rel="external">Site da empresa</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/business.jpg" alt="Imagem de reunião"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao--dinamico flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Mudanças</h1>
+                                <p class="escolhasEvida__cartoes--texto">Se e reinventar é algo que eu considero ser capaz de fazer com certa facilidade, visto que, várias vezes precisei avaliar minha situação 
+                                    atual e ser capaz de alinha-la aos meus objetivos, além das grandes mudanças que já ocorreram na minha vida</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="https://youtu.be/AQQ_J0T1qpk">Mudanças</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/mudancas.jpg" alt="Imagem de avião de papel se desviando dos outros"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao--dinamico flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Minha área</h1>
+                                <p class="escolhasEvida__cartoes--texto">Comecei a investir mais tempo e estudos na programação mais ou menos quando tinha 14 anos de idade, porém, acabei deixando de lado e 
+                                    foquei em outras coisas. Alguns anos depois, após ver o potencial desse mercado e pessoas que eu conheço se interessando pelo assunto, resolvi dar uma segunda chance e 
+                                    desde então não parei mais. Estou cada vez mais animado nesse ramo!</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="https://www.alura.com.br/" target="_blank" rel="external">Site da Alura</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/computacao.jpg" alt="Imagem de Hardware / Software juntos"></img>
+                        </li>
+
+                        <li class="escolhasEvida__cartao--dinamico flexDinamico">
+                            <section class="escolhasEvida__cartao--itens">
+                                <h1 class="escolhasEvida__cartoes--titulo">Família</h1>
+                                <p class="escolhasEvida__cartoes--texto">Valorizo muito a minha família e busco ser responsável por apenas trazer alegria para ela. Ver um sorriso no rosto 
+                                    dos meus pais e familiares não tem preço e acredito que juntos somos capazes de fazer grandes coisas sempre de acordo com os nossos valores, crescendo junto
+                                    com aqueles que estão ao nosso redor e buscando nos desenvolver diariamente.</p>
+                                <a class="escolhasEvida__cartoes--botao botao" href="">=)</a>
+                            </section>
+                            <img class="escolhasEvida__cartoes--imagem" src="./assets/img/familia.jpg" alt="Imagem de família"></img>
+                        </li>
+
+                        <section class="caixa__seta">
+                            <div class="seta__cards seta__expandir"></div>
+                        </section>
+                    </ul>
+                </section>
+            </section>
+
+            <section id="formacaoAcademica">
+                <h1 class="formacaoAcademica__titulo">Formação Acadêmica</h1>
+                <ul class="formacaoAcademica__instituicoes">
+                    <li class="formacaoAcademica__instituicoes--item">
+                        <img class="formacaoAcademica__instituicoes--imagem" src="./assets/img/sigma-logo.png" alt="Logo da escola Sigma">
+                    </li>
+                    <li class="formacaoAcademica__instituicoes--item">
+                        <img class="formacaoAcademica__instituicoes--imagemAlura" src="./assets/img/alura.png" alt="Logo do site Alura">
+                    </li>
+                    <li class="formacaoAcademica__instituicoes--item">
+                        <img class="formacaoAcademica__instituicoes--imagem" src="./assets/img/unisociesc.png" alt="Logo da faculdade Unisociesc">
+                    </li>
+                </ul>
+
+                <ul class="formacaoAcademica__competencias">
+                    <li class="formacaoAcademica__competencias--item">
+                        <img class="formacaoAcademica__competencias--imagem" src="./assets/img/icons8-html-5-64.png" alt="Ícone de HTML">
+                        <h2 class="formacaoAcademica__competencias--descricao fill__programing">HTML</h2>
+                    </li>
+
+                    <li class="formacaoAcademica__competencias--item">
+                        <img class="formacaoAcademica__competencias--imagem" src="./assets/img/icons8-css-64.png" alt="Ícone do CSS">
+                        <h2 class="formacaoAcademica__competencias--descricao fill__programing">CSS</h2>
+                    </li>
+
+                    <li class="formacaoAcademica__competencias--item">
+                        <img class="formacaoAcademica__competencias--imagem" src="./assets/img/icons8-javascript-48.png" alt="Icone do JavaScript">
+                        <h2 class="formacaoAcademica__competencias--descricao fill__programing">JavaScript</h2>
+                    </li>
+
+                    <li class="formacaoAcademica__competencias--item">
+                        <img class="formacaoAcademica__competencias--imagem" src="./assets/img/icons8-reagir-100.png" alt="Ícone do React JS">
+                        <h2 class="formacaoAcademica__competencias--descricao fill__programing">React JS</h2>
+                    </li>
+
+                    <li class="formacaoAcademica__competencias--item">
+                        <img class="formacaoAcademica__competencias--imagem" src="./assets/img/icons8-sql-60.png" alt="Ícone do SQL">
+                        <h2 class="formacaoAcademica__competencias--descricao fill__programing">SQL</h2>
+                    </li>
+
+                    <li class="formacaoAcademica__competencias--item">
+                        <img class="formacaoAcademica__competencias--imagem" src="./assets/img/icons8-python-64.png" alt="Ícone do Python">
+                        <h2 class="formacaoAcademica__competencias--descricao fill__programing">Python</h2>
+                    </li>
+                </ul>
+            </section>
+
+            <img class="botao__topo esconder" src="./assets/img/icons8-acima-24.png" alt="Seta para voltar ao inicio da pagina"></img>
+        </main>
+
+        <footer id="rodape">
+            <section class="rodape__itens">
+                <h1 class="rodape__titulo gradiente">Entre em contato</h1>
+                <adress>
+                    <ul class="rodape__contatos">
+                        <li class="rodape__contatos--item">
+                            <img class="rodape__contatos--imagem" src="./assets/img/icons8-telefone-desligado-64.png" alt="Telefone"></img>
+                            <p class="rodape__contatos--texto"><a href="tel:+47988042584" class="rodape__contatos--telefone">(47) 98804-2584</a></p>
+                        </li>
+                        <li class="rodape__contatos--item">
+                            <img class="rodape__contatos--imagem" src="./assets/img/icons8-email-aberto-64.png" alt="Email"></img>
+                            <p class="rodape__contatos--texto"><a href="mailto:matheus.piske14@gmail.com" class="rodape__contatos--email">matheus.piske14@gmail.com</a></p>
+                        </li>
+                        <li class="rodape__contatos--item">
+                            <img class="rodape__contatos--imagem" src="./assets/img/icons8-instagram-colorido.svg" alt="Instagram"></img>
+                            <p class="rodape__contatos--texto"><a href="https://www.instagram.com/matheus.piskee/" class="rodape__contatos--instagram">/matheus.piskee</a></p>
+                        </li>
+                    </ul>
+                </adress>  
+                <section class="rodape__botoes">
+                    <a class="rodape__botao botao__semPreenchimento gradiente" href="./assets/documents/meuCurriculo.pdf" download="meuCurriculo.pdf" type="application/pdf" target="_blank" rel="external">Baixar currículo</a>
+                    <a class="rodape__botao botao" href="tel:47988042584">Vamos conversar!</a>
+                </section>
+                <section class="rodape__contatoLinkedin">
+                    <img class="rodape__contatoLinkedin--imagem" src="./assets/img/qrCode-linkedin.jpg" alt="QR Code do meu Linkedin"></img>
+                    <p class="rodape__contatoLinkedin--texto">Fale comigo pelo LinkeIn</p>
+                </section>
+            </section>
+            <section class="rodape__videos">
+                <iframe class="rodape__video--stevie" src="./assets/img/stevieray.mp4" frameborder="0" allowfullscreen></iframe>
+                <iframe class="rodape__video--born" src="./assets/img/video-musica.mp4" frameborder="0" allowfullscreen></iframe>
+            </section>
+        </footer>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

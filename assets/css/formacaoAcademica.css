@@ -1,0 +1,126 @@
+#formacaoAcademica{
+      padding: 10rem 10rem 3rem 10rem;
+  }
+.formacaoAcademica__titulo{
+      color: aliceblue;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 6rem;
+  }
+.formacaoAcademica__competencias{
+      display: flex;
+      justify-content: space-between;
+  }
+.formacaoAcademica__competencias--item{
+      align-items: center;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 25px;
+      box-shadow: 20px 20px 20px 0px #00000035;
+      display: flex;
+      flex-direction: column;
+      height: 150px;
+      margin: 0 2rem 3rem 2rem;
+      max-height: 350px;
+      padding: 3rem 2rem 3rem 2rem;
+      width: 150px;
+  }
+.formacaoAcademica__competencias--imagem{
+      height: 85px;
+      margin-bottom: 2rem;
+      width: 85px;
+  }
+.formacaoAcademica__competencias--descricao{
+      font-size: 2rem;
+      font-weight: bold;
+  }
+.formacaoAcademica__instituicoes--imagem{
+      height: 200px;
+      width: 370px;
+  }
+.formacaoAcademica__instituicoes--imagemAlura{
+      height: 200px;
+      width: 600px;
+  }
+.formacaoAcademica__instituicoes--descricao{
+      font-size: 2rem;
+      font-weight: bold;
+  }
+.formacaoAcademica__instituicoes{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 7rem;
+  }
+.formacaoAcademica__competencias--item:hover{
+      box-shadow: none;
+      height: 140px;
+      transition-duration: 500ms;
+      width: 140px;
+  }
+.formacaoAcademica__competencias--item:not(:hover){
+      transition-duration: 500ms;
+  }
+@media screen and (max-width: 1024px){
+    #formacaoAcademica{
+          padding: 10rem 4rem 3rem 4rem;
+      }
+    .formacaoAcademica__instituicoes{
+          align-items: center;
+          flex-direction: column;
+      }
+    .formacaoAcademica__competencias{
+          flex-direction: column;
+      }
+    .formacaoAcademica__competencias--item{
+          height: auto;
+          margin: 0 0 2rem 0;
+          padding: 10% 36%;
+          width: auto;
+      }
+  }
+@media screen and (max-width: 1700px){
+    #formacaoAcademica{
+          padding: 8rem 5rem 0 5rem;
+      }
+    .formacaoAcademica__instituicoes {
+          align-items: center;
+          flex-direction: column;
+      }
+    .formacaoAcademica__competencias{
+          flex-direction: column;
+      }
+    .formacaoAcademica__competencias--item{
+          height: auto;
+          margin: 0 0 2rem 0;
+          padding: 10% 36%;
+          width: auto;
+      }
+  }
+@media screen and (max-width: 1024px){
+    .formacaoAcademica__competencias--item:hover{
+          height: 150px;
+          transition-duration: 500ms;
+          width: 180px;
+      }
+
+    #formacaoAcademica{
+          padding: 5rem 1.5rem 3rem 1.5rem;
+      }
+    .formacaoAcademica__instituicoes--imagemAlura{
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+      }
+    
+  }
+@media screen and (max-width: 750px){
+    .formacaoAcademica__competencias--item:hover{
+          height: 150px;
+          transition-duration: 500ms;
+          width: 100px;
+      }
+
+  
+    .formacaoAcademica__instituicoes--imagemAlura{
+          max-height: 150px;
+          max-width: 370px;
+      }
+  }

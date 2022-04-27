@@ -1,0 +1,165 @@
+#escolhasEvida{
+    padding: 10rem 10rem 3rem 10rem;
+}
+.escolhasEvida__titulo{
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+.escolhasEvida__cartoes{
+    display: flex;
+    flex-direction: column;
+}
+.escolhasEvida__cartao{
+    align-items: center;
+    background: aliceblue;
+    border-radius: 25px;
+    box-shadow: 20px 20px 20px 0px #00000035;
+    justify-content: space-between;
+    margin: 0 3rem 3rem 3rem;
+    max-height: 350px;
+    padding: 5rem 10% 5rem 8%;
+}
+.escolhasEvida__cartao--dinamico{
+    align-items: center;
+    background: aliceblue;
+    border-radius: 25px;
+    box-shadow: 20px 20px 20px 0px #00000035;
+    justify-content: space-between;
+    margin: 0 3rem 3rem 3rem;
+    max-height: 350px;
+    padding: 5rem 10% 5rem 8%;
+}
+.escolhasEvida__cartao--itens{
+    max-width: 500px;
+}
+.escolhasEvida__cartoes--titulo{
+    color: rgb(109, 109, 109);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.escolhasEvida__cartoes--texto{
+    color: rgb(109, 109, 109);
+    margin-bottom: 2.5rem;
+}
+.escolhasEvida__cartoes--imagem{
+    border-radius: 30%;
+    box-shadow: 0 20px 20px 10px #00000035;
+    height: 300px;
+    width: 500px;
+}
+.escolhasEvida__cartoes--botao:hover{
+    box-shadow: none;
+    transition-duration: 500ms;
+}
+.escolhasEvida__cartoes--botao:not(:hover){
+    transition-duration: 500ms;
+}
+.caixa__seta{
+    display: flex;
+    justify-content: center;
+}
+.seta__expandir{
+    background-image: url("../img/icons8-seta-para-expandir-50.png");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.seta__expandir:hover{
+    margin-top: 1rem;
+    transition-duration: 1000ms;
+}
+.seta__expandir:not(:hover){
+    margin-top: none;
+    transition-duration: 1000ms;
+}
+.seta__reduzir{
+    background-image: url("../img/arrow_chevron_direction_down_move_navigation_up_icon_123220.svg");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+@media screen and (max-width: 1700px){
+    #escolhasEvida{
+        padding: 8rem 5rem 0 5rem;
+    }
+
+    .escolhasEvida__cartao{
+        margin: 0 0 3rem 0;
+        padding: 5rem 5% 5rem 5%;
+    }
+
+    .escolhasEvida__cartao--dinamico{
+        margin: 0 0 3rem 0;
+        padding: 5rem 5% 5rem 5%;
+    }
+
+    .escolhasEvida__cartao--itens{
+        max-width: 270px;
+    }
+}
+@media screen and (min-width: 1450px) and (max-width: 1700px){
+    .escolhasEvida__cartao{
+        justify-content: space-around;
+    }
+
+    .escolhasEvida__cartao--dinamico{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1024px){
+    #escolhasEvida{
+        padding: 10rem 4rem 3rem 4rem;
+    }
+
+    .escolhasEvida__cartao{
+        flex-direction: column;
+        margin: 0 0 2rem 0;
+        padding: 5rem 10% 18rem 8%;
+    }
+
+    .escolhasEvida__cartao--dinamico{
+        flex-direction: column;
+        margin: 0 0 2rem 0;
+        padding: 5rem 10% 18rem 8%;
+    }
+
+    .escolhasEvida__cartoes--imagem{
+        margin-top: 3rem;
+    }
+
+    .escolhasEvida__cartao--itens{
+        max-width: none;
+    }
+}
+@media screen and (max-width: 750px){
+    #escolhasEvida{
+        padding: 1rem 1.5rem 3rem 1.5rem;
+    }
+
+    .escolhasEvida__cartoes--imagem{
+        height: 300px;
+        width: 300px;
+    }
+
+    .escolhasEvida__cartao{
+        padding: 3rem 10% 14rem 8%;
+    }
+
+    .escolhasEvida__cartao--dinamico{
+        padding: 3rem 10% 14rem 8%;
+    }
+
+    .imagem__esportes{
+        height: 180px;
+    }
+    .escolhasEvida__cartao--itens{
+        max-width: none;
+    }
+}

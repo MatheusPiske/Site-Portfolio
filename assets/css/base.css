@@ -1,0 +1,85 @@
+:root{
+    --azul-claro: rgb(100, 219, 255);
+    --azul-escuro: rgb(106, 175, 253);
+    --cinza-mais-transparente: rgba(255, 255, 255, 0.6);
+    --cinza-menos-transparente: rgba(255, 255, 255, 0.8);
+    --roxo-claro: rgb(188, 160, 255);
+    --roxo-escuro: rgb(160, 169, 255);
+    --verde: rgb(106, 253, 229);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, var(--roxo-escuro),var(--verde));
+    font-family: "Roboto", sans-serif;
+}
+.botao{
+    background: linear-gradient(to right, var(--roxo-escuro), var(--azul-escuro));
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 20px 2px #00000035;
+    box-sizing:border-box;
+    color: aliceblue;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    max-width: 250px;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+.botao__semPreenchimento{
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, var(--roxo-escuro), var(--azul-escuro));
+    border-image-slice: 1;
+    box-shadow: 0 2px 20px 2px #00000035;
+    box-sizing:border-box;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    max-width: 250px;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+.fill{
+    background-image: url(../img/computacao.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fill__programing{
+    background-image: url(../img/programing.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradiente{
+    background-clip: text;
+    background-image: linear-gradient(to right, var(--verde), var(--azul-claro));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.botao__topo{
+    background-color: var(--cinza-mais-transparente);
+    border-radius: 10px;
+    bottom: 10px;
+    height: 25px;
+    padding: 5px;
+    position: fixed;
+    right: 10px;
+    width: 25px;
+}
+.botao__topo:hover{
+    background-color: var(--cinza-menos-transparente);
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.esconder{
+    display: none;
+}
+.flexDinamico{
+    display: flex;
+}
+.noneDinamico{
+    display: none;
+}

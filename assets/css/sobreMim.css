@@ -1,0 +1,59 @@
+#sobreMim{
+      padding: 9rem 10rem 3rem 10rem;
+  }
+.sobreMim__titulo{
+      color: aliceblue;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+  }
+.sobreMim__atribuicoes{
+      display: flex;
+      justify-content: space-between;
+  }
+.sobreMim__icone--trabalho{
+      margin-bottom: 2rem;
+      width: 100px;
+  }
+.sobreMim__icone--hobbs{
+      margin-bottom: 2rem;
+      width: 100px;
+  }
+.sobreMim__icone--estudos{
+      margin-bottom: 2rem;
+      width: 100px;
+  }
+.sobreMim__texto{
+      color: aliceblue;
+      font-size: 1.1rem;
+      max-width: 250px;
+  }
+@media screen and (max-width: 1700px){
+    #sobreMim{
+          padding: 8rem 5rem 0 5rem;
+      }
+  }
+@media screen and (max-width: 1024px){
+    #sobreMim{
+          padding: 10rem 4rem 3rem 4rem;
+      }
+    .sobreMim__icones{
+          max-width: 180px;
+      }
+  }
+@media screen and (max-width: 750px){
+    #sobreMim{
+          padding: 10rem 1.5rem 3rem 1.5rem;
+      }
+    .sobreMim__atribuicoes{
+          align-items: center;
+          flex-direction: column;
+      }
+    .sobreMim__titulo{
+          margin-bottom: 4rem;
+      }
+    .sobreMim__icones{
+          margin-bottom: 6rem;
+          max-width: 220px;
+      }
+  }

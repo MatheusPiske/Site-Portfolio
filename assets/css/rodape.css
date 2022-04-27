@@ -1,0 +1,180 @@
+#rodape{
+      background: aliceblue;
+      border-radius: 25px;
+      box-shadow: 20px 20px 15px #00000035;
+      display: flex;
+      justify-content: space-between;
+      margin: 7rem 3rem 3rem 3rem;
+      max-height: 350px;
+      padding: 5rem 6% 9rem 8%;
+  }
+.rodape__titulo{
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 2.8rem;
+      margin-bottom: 1rem;
+  }
+.rodape__contatos{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 550px;
+  }
+.rodape__contatos--item{
+      align-items: center;
+      display: flex;
+  }
+.rodape__contatos--imagem{
+      height: 60px;
+      padding-bottom: 1rem;
+      width: 55px;
+  }
+.rodape__contatos--email{
+      text-decoration: underline;
+  }
+.rodape__botoes{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+  }
+.rodape__contatoLinkedin{
+      align-items: center;
+      display: flex;
+      margin-top: 2rem;
+  }
+.rodape__contatoLinkedin--imagem{
+      height: 100px;
+      margin-right: 2rem;
+      width: 100px;
+  }
+.rodape__imagem{
+      height: 100%;
+      width: 300px;
+  }
+.rodape__videos{
+      align-self: center;
+      display: flex;
+      justify-content: space-around;
+      width: 920px;
+  }
+.rodape__video--stevie{
+      border-radius: 20px;
+      box-shadow: 20px 20px 15px #00000035;
+      height: 315px;
+      margin-top: 2rem;
+      width: 420px;
+  }
+.rodape__video--born{
+      border-radius: 20px;
+      box-shadow: 20px 20px 15px #00000035;
+      height: 310px;
+      margin-top: 2rem;
+      width: 310px;
+  }
+.rodape__botao:hover{
+      box-shadow: none;
+      transition-duration: 500ms;
+  }
+.rodape__botao:not(:hover){
+      transition-duration: 500ms;
+  }
+@media screen and (max-width: 1700px){
+    #rodape{
+          flex-direction: column;
+          padding: 4rem 4rem 8rem 4rem
+      }
+    .rodape__botoes {
+          justify-content: start;
+      }
+    .rodape__botao {
+          margin-right: 2rem;
+      }
+    .rodape__videos{
+          align-items: center;
+          margin-top: 3rem;
+          max-width: 500px;
+      }
+    .rodape__video--stevie{
+          height: 300px;
+          margin-bottom: 2rem;
+          margin-right: 5rem;
+      }
+    .rodape__video--born{
+          height: 300px;
+          margin-bottom: 2rem;
+      }
+  }
+@media screen and (min-width: 1450px) and (max-width: 1700px){
+    #rodape{
+          flex-direction: row;
+      }
+    .rodape__video--stevie{
+          margin-right: 1rem;
+      }
+    .rodape__video--born{
+          margin-left: 2rem;
+          margin-right: 4rem;
+      }
+  }
+@media screen and (max-width: 1024px){
+    #rodape{
+          flex-direction: column;
+          padding: 4rem 4rem 8rem 4rem
+      }
+    .rodape__botoes{
+          justify-content: start;
+      }
+    .rodape__botao{
+          margin-right: 2rem;
+      }
+    .rodape__videos{
+          align-items: center;
+          flex-direction: column;
+          max-width: 500px;
+      }
+    .rodape__video--stevie{
+          margin-right: 0;
+          margin-top: 5rem;
+          width: 400px;
+      }  
+    .rodape__video--born{
+          margin-bottom: 2rem;
+          width: 300px;
+      }
+  }
+@media screen and (max-width: 750px){
+    #rodape{
+          border-radius: 0;
+          box-shadow: 0;
+          margin: 0;
+          max-height: 0;
+          padding: 0;
+      }
+    .rodape__videos{
+          width: 300px;
+      }
+    .rodape__itens{
+          background: aliceblue;
+          border-radius: 25px;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+          box-shadow: 20px 20px 15px #00000035;
+          padding: 2.5rem;
+      }
+    .rodape__video--stevie{
+          height: 225px;
+          margin-right: 0;
+          width: auto;
+      }
+    .rodape__video--born{
+          align-items: center;
+          height: 300px;
+          width: auto;
+      }
+    .botao{
+          margin-left: 0.5rem;
+      }
+    .botao__semPreenchimento{
+          margin-right: 0.5rem;
+      }
+  }

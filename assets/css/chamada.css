@@ -1,0 +1,106 @@
+.chamada{
+      background: aliceblue;
+      border-end-end-radius: 25px;
+      border-end-start-radius: 25px;
+      box-shadow: 20px 20px 20px 0px #00000035;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 3rem 3rem 3rem;
+      max-height: 350px;
+      padding: 5rem 10% 7rem 8%;
+  }
+.chamada__itens{
+      max-width: 550px;
+  }
+.chamada__titulo{
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+  }
+.chamada__subtitulo{
+      color: rgb(109, 109, 109);
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 2.8rem;
+      margin-bottom: 1rem;
+  }
+.chamada__texto{
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+  }
+.rodape__social{
+      display: flex;
+      margin-bottom: 3rem;
+  }
+.rodape__midia{
+      padding-right: 2rem;
+  }
+.rodape__midia--github{
+      max-height: 64px;
+      max-width: 64px;
+  }
+#chamada__botoes{
+      align-items: center;
+      display: flex;
+  }
+.chamada__botao{
+      margin-right: 2rem;
+  }
+.chamada__imagem{
+      background: no-repeat center / cover;
+      border-radius: 100%;
+      box-shadow: 0 20px 20px 10px #00000035;
+      height: 400px;
+      margin: 0 50px;
+      width: 28%;
+  }
+.chamada__botao:hover{
+      box-shadow: none;
+      transition-duration: 500ms;
+  }
+.chamada__botao:not(:hover){
+      transition-duration: 500ms;
+  }
+@media screen and (max-width: 1700px){
+    .chamada{
+          padding: 5rem 0% 7rem 4%;
+      }
+    .chamada__imagem{
+          height: 380px;
+          width: 30%;
+      }
+  }
+@media screen and (min-width: 1450px) and (max-width: 1700px){
+    .chamada__imagem{
+          height: 380px;
+          width: 30%;
+      }
+  }
+@media screen and (max-width: 1200px){
+    .chamada{
+          flex-direction: column;
+          padding: 4rem 10% 7rem 8%;
+      }
+    .chamada__imagem{
+          display: none;
+      }
+  }
+@media screen and (max-width: 750px){
+    .chamada{
+          margin: 0;
+      }
+    .chamada__botao{
+          margin-left: 0.9rem;
+      }
+    .chamada__subtitulo{
+          font-size: 2rem;
+      }
+    .chamada__texto{
+          font-size: 0.9rem;
+          font-weight: 600;
+      }
+    .chamada__titulo{
+          font-size: 1.3rem;
+      }
+  }
